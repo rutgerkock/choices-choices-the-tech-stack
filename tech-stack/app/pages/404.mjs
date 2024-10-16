@@ -13,7 +13,7 @@ export default function FourOhFour({ html, state }) {
         justify-content: center;
         align-items: center;
         color: #FFFFFF;
-        font-family: Arial, sans-serif;
+        font-family: sans-serif;
         text-align: center;
       }
       
