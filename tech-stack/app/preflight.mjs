@@ -6,8 +6,7 @@ export default async function Preflight({ req }) {
 
 function getPageTitle(path) {
   const titleMap = {
-    '/': 'Enhance Starter Project',
-    '/about' : 'About'
+    '/': 'Enhance Starter Project'
   }
 
   return titleMap[path]|| '404 - Pagina niet gevonden';

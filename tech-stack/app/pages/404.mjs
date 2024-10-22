@@ -42,7 +42,7 @@ export default function FourOhFour({ html, state }) {
     <main>
       <h1>Pagina niet gevonden :&#40;</h1>
       <p>${error && error}</p>
-      <a href="/about">Terug naar de about</a>
+      <a href="/">Terug naar de home</a>
     </main>
   `;
 }

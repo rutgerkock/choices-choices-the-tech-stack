@@ -1,4 +1,4 @@
-export default function SiteHeader({ html, state }) {
+export default function SiteHeader({ html }) {
     return html`
         <style>
             :host {
@@ -153,7 +153,7 @@ export default function SiteHeader({ html, state }) {
                 <input type="checkbox" id="checkbox_toggle" aria-label="Toggle navigation">
                 <label for="checkbox_toggle">
                     <a href="/" class="logo" aria-label="Home"></a>
-                    <div class="menu-icon" aria-hidden="true"></div>
+                    <span class="menu-icon" aria-hidden="true"></span>
                 </label>
                 <ul>
                     <li><a href="/kaas">Stekjes</a></li>
