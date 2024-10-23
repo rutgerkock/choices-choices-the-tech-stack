@@ -86,8 +86,7 @@ export default function SiteHeader({ html, state }) {
                 top: 0; 
                 left: 0;
                 right: 0; 
-                background: var(--nav-background);
-                padding: 0 1rem 3rem 1rem; 
+                background: #f9e9c2;
                 z-index: 998; 
                 height: 100vh;
                 overflow-y: auto; 
@@ -96,12 +95,12 @@ export default function SiteHeader({ html, state }) {
 
             ul li {
                 padding: 0.5em 0;
-                margin: 2rem 0;
-                border-bottom: 2px solid var(--text-green);
+                margin: 2rem 2rem;
+                border-bottom: 2px solid #4e7141;
             }
 
             ul li a {
-                color: var(--text-green);
+                color: #4e7141;
                 text-decoration: none;
                 font-family: 'Poppins-Black', sans-serif;
                 font-size: 2rem;
@@ -112,7 +111,7 @@ export default function SiteHeader({ html, state }) {
 			}
 
 			a:hover {
-				color: var(--highlight-color)
+				color: #ff8d06;
 			}
 
             /* Desktop styles */
