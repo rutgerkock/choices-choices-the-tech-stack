@@ -133,6 +133,7 @@ export default function SiteHeader({ html, state }) {
                     opacity: 1;
 					height: 5rem;
 					align-items: center;
+                    padding-top: 1em;
                 }
 
                 ul li {
